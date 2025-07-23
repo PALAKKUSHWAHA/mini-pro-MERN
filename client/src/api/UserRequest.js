@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://lpu-minipro-1.onrender.com/' });
+const API = axios.create({ baseURL: ' https://mini-pro-mern-1.onrender.com/' });
 
 
 API.interceptors.request.use((req) => {
